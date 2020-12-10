@@ -1,0 +1,118 @@
+.Product {
+    padding: 2rem;
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 194, 194);
+    padding: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.Product:hover {
+    box-shadow: 2px 2px 2px royalblue;
+    border: 3px solid royalblue;
+}
+
+.Product label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px
+}
+
+.prod-img {
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 200px;
+    width: 230px;
+}
+
+.prod-title {
+    display: block;
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px 2px 0px 2px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-add {
+    margin: 2px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prod-btn:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(74, 102, 83);
+    border: 3px solid rgb(74, 102, 83);
+}
+
+.prod-price {
+    color: blue;
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px 0px 0px 5px;
+}
+
+.price-value {
+    color: blue;
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px 0px 0px 5px;
+}
+
+
+/*
+.prod-price:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px royalblue;
+    border: 3px solid royalblue;
+}
+*/
+
+.prod-total {
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: rgb(88, 54, 10);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.total-value {
+    padding: 3px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: rgb(88, 54, 10);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/*
+.prod-total:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px royalblue;
+    border: 3px solid royalblue;
+}
+*/
+
+.prod-quan {
+    padding: 2px;
+    margin: 5px 2px 0px 2px;
+}
+
+.QPicker {
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
